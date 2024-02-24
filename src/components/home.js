@@ -34,7 +34,7 @@ const Home = () => {
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src={image} />
+            <img src={gate} class="d-block w-90vw " alt="..." />
             <div class="carousel-caption d-none d-md-block">
               <h5>First slide label</h5>
               <p>
@@ -43,7 +43,7 @@ const Home = () => {
             </div>
           </div>
           <div class="carousel-item">
-            <img src={building} />
+            <img src={building} class="d-block w-50" alt="..." />
             <div class="carousel-caption d-none d-md-block">
               <h5>Second slide label</h5>
               <p>
@@ -52,7 +52,7 @@ const Home = () => {
             </div>
           </div>
           <div class="carousel-item">
-            <img src={gate} />
+            <img src={gate} class="d-block w-100" alt="..." />
             <div class="carousel-caption d-none d-md-block">
               <h5>Third slide label</h5>
               <p>
